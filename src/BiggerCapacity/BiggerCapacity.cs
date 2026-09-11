@@ -292,6 +292,12 @@ public partial class BiggerCapacity : UserMod2
 					return;
 				case "KeroseneEngineCluster":
 					return;
+				case "GasPump":
+				case "GasMiniPump":
+				case "LiquidPump":
+				case "LiquidMiniPump":
+					// PumpFlowPatch already sizes the buffer for the configured flow.
+					return;
 				default:
 					if (num == 1f)
 					{
@@ -469,7 +475,7 @@ public partial class BiggerCapacity : UserMod2
 		}
 	}
 
-	private const int CONFIG_VERSION = 8;
+	private const int CONFIG_VERSION = 9;
 
 	public static Config config;
 

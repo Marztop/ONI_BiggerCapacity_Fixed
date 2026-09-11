@@ -277,3 +277,51 @@ msgstr "导热板（kg/s）"
 msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CONDUCTIONPANEL.TOOLTIP"
 msgid "Base liquid transfer rate, multiplied by the pipe multiplier. This controls flow, not stored mass or thermal conductivity."
 msgstr "液体基础流量，乘以管道倍率。控制流量，不是储存质量或导热系数。"
+
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASPUMPMULTIPLIER.NAME"
+msgid "Gas Pump Multiplier"
+msgstr "气泵倍率"
+
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASPUMPMULTIPLIER.TOOLTIP"
+msgid "Multiplies the configured extraction rates of regular and mini gas pumps. Output is still limited by gas availability and pipe capacity."
+msgstr "普通和微型气泵的基础抽取速率乘以此倍率。实际输出仍受周围气体量及管道容量限制。"
+
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDPUMPMULTIPLIER.NAME"
+msgid "Liquid Pump Multiplier"
+msgstr "液泵倍率"
+
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDPUMPMULTIPLIER.TOOLTIP"
+msgid "Multiplies the configured extraction rates of regular and mini liquid pumps. Output is still limited by liquid availability and pipe capacity."
+msgstr "普通和微型液泵的基础抽取速率乘以此倍率。实际输出仍受周围液体量及管道容量限制。"
+
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASPUMP.NAME"
+msgid "Gas Pump (kg/s)"
+msgstr "气体泵（kg/s）"
+
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASPUMP.TOOLTIP"
+msgid "Base extraction rate, multiplied by the gas pump multiplier. Default: 0.5 kg/s."
+msgstr "基础抽取速率，乘以气泵倍率。默认 0.5 kg/s。"
+
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASMINIPUMP.NAME"
+msgid "Mini Gas Pump (kg/s)"
+msgstr "微型气体泵（kg/s）"
+
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASMINIPUMP.TOOLTIP"
+msgid "Base extraction rate, multiplied by the gas pump multiplier. Default: 0.05 kg/s."
+msgstr "基础抽取速率，乘以气泵倍率。默认 0.05 kg/s。"
+
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDPUMP.NAME"
+msgid "Liquid Pump (kg/s)"
+msgstr "液体泵（kg/s）"
+
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDPUMP.TOOLTIP"
+msgid "Base extraction rate, multiplied by the liquid pump multiplier. Default: 10 kg/s."
+msgstr "基础抽取速率，乘以液泵倍率。默认 10 kg/s。"
+
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDMINIPUMP.NAME"
+msgid "Mini Liquid Pump (kg/s)"
+msgstr "微型液体泵（kg/s）"
+
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDMINIPUMP.TOOLTIP"
+msgid "Base extraction rate, multiplied by the liquid pump multiplier. Default: 1 kg/s."
+msgstr "基础抽取速率，乘以液泵倍率。默认 1 kg/s。"

@@ -41,6 +41,18 @@ internal static class ConfigStrings
 	// English fallback is restored before each locale load.
 	internal static void RegisterDefaults()
 	{
+		Strings.Add("STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASPUMPMULTIPLIER.NAME", "Gas Pump Multiplier");
+		Strings.Add("STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASPUMPMULTIPLIER.TOOLTIP", "Multiplies the configured extraction rates of regular and mini gas pumps. Output is still limited by gas availability and pipe capacity.");
+		Strings.Add("STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDPUMPMULTIPLIER.NAME", "Liquid Pump Multiplier");
+		Strings.Add("STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDPUMPMULTIPLIER.TOOLTIP", "Multiplies the configured extraction rates of regular and mini liquid pumps. Output is still limited by liquid availability and pipe capacity.");
+		Strings.Add("STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASPUMP.NAME", "Gas Pump (kg/s)");
+		Strings.Add("STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASPUMP.TOOLTIP", "Base extraction rate, multiplied by the gas pump multiplier. Default: 0.5 kg/s.");
+		Strings.Add("STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASMINIPUMP.NAME", "Mini Gas Pump (kg/s)");
+		Strings.Add("STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASMINIPUMP.TOOLTIP", "Base extraction rate, multiplied by the gas pump multiplier. Default: 0.05 kg/s.");
+		Strings.Add("STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDPUMP.NAME", "Liquid Pump (kg/s)");
+		Strings.Add("STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDPUMP.TOOLTIP", "Base extraction rate, multiplied by the liquid pump multiplier. Default: 10 kg/s.");
+		Strings.Add("STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDMINIPUMP.NAME", "Mini Liquid Pump (kg/s)");
+		Strings.Add("STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDMINIPUMP.TOOLTIP", "Base extraction rate, multiplied by the liquid pump multiplier. Default: 1 kg/s.");
 		Strings.Add("STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CATEGORIES.POWER", "Power");
 		Strings.Add("STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CATEGORIES.STORAGE", "Storage and Transport");
 		Strings.Add("STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CATEGORIES.OTHER", "Rockets and Other");
