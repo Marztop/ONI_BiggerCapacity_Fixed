@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>BiggerCapacity</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net48</TargetFramework>
+    <GameManagedPath Condition="'$(GameManagedPath)' == ''">D:/SteamLibrary/steamapps/common/OxygenNotIncluded/OxygenNotIncluded_Data/Managed</GameManagedPath>
+    <PLibPath Condition="'$(PLibPath)' == ''">C:/Users/Marztop/Documents/Klei/OxygenNotIncluded/mods/Steam/3757306688/PLib.dll</PLibPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <None Update="translations/**/*.po" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <None Update="mod.yaml;mod_info.yaml" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp;0Harmony;UnityEngine.CoreModule;Assembly-CSharp-firstpass;Newtonsoft.Json;UnityEngine.UI;UnityEngine;UnityEngine.IMGUIModule">
+      <HintPath>$(GameManagedPath)/%(Identity).dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="PLib">
+      <HintPath>$(PLibPath)</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

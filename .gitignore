@@ -1,0 +1,24 @@
+**/bin/
+**/obj/
+/tests/
+
+# Local IDE state (keep shareable editor configuration eligible for Git)
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs, temporary files, and local backups
+*.log
+*.tmp
+*.bak
+*.bak.*
+*~
+/backup/
+/backups/
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store

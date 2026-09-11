@@ -1,0 +1,255 @@
+msgid ""
+msgstr ""
+"Language: zh-CN\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CATEGORIES.POWER
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CATEGORIES.POWER"
+msgid "Power"
+msgstr "电力"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CATEGORIES.STORAGE
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CATEGORIES.STORAGE"
+msgid "Storage and Transport"
+msgstr "储存与运输"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CATEGORIES.OTHER
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CATEGORIES.OTHER"
+msgid "Rockets and Other"
+msgstr "火箭与其他"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CATEGORIES.CAPACITY
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CATEGORIES.CAPACITY"
+msgid "Base Capacities"
+msgstr "基础容量"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.WIREMULTIPLIER.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.WIREMULTIPLIER.NAME"
+msgid "Wire Load Multiplier"
+msgstr "电线负载倍率"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.WIREMULTIPLIER.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.WIREMULTIPLIER.TOOLTIP"
+msgid "Multiplies the maximum power load of wires. 1 uses the game's original rating."
+msgstr "电线最大负载功率的倍率。1 表示游戏原版数值。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.BATTERYMULTIPLIER.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.BATTERYMULTIPLIER.NAME"
+msgid "Battery Capacity Multiplier"
+msgstr "电池容量倍率"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.BATTERYMULTIPLIER.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.BATTERYMULTIPLIER.TOOLTIP"
+msgid "Multiplies regular battery storage capacity. Does not affect batteries inside transformers."
+msgstr "普通电池储能容量的倍率，不影响变压器内部电池。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GENERATORMULTIPLIER.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GENERATORMULTIPLIER.NAME"
+msgid "Generator Multiplier"
+msgstr "发电机倍率"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GENERATORMULTIPLIER.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GENERATORMULTIPLIER.TOOLTIP"
+msgid "Multiplies both generator output and internal energy buffer capacity. Does not affect transformers."
+msgstr "同时放大发电功率和内部缓冲容量，不影响变压器。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.TRANSFORMERMULTIPLIER.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.TRANSFORMERMULTIPLIER.NAME"
+msgid "Transformer Multiplier"
+msgstr "变压器倍率"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.TRANSFORMERMULTIPLIER.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.TRANSFORMERMULTIPLIER.TOOLTIP"
+msgid "Multiplies output power, charging power, and internal capacity for both transformer sizes."
+msgstr "大小变压器的输出功率、充电功率和内部容量倍率。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.STORAGEMULTIPLIER.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.STORAGEMULTIPLIER.NAME"
+msgid "Storage Multiplier"
+msgstr "储存倍率"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.STORAGEMULTIPLIER.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.STORAGEMULTIPLIER.TOOLTIP"
+msgid "Applies to storage bins, reservoirs, ration boxes, refrigerators, and wood storage. Final capacity = base capacity × this multiplier."
+msgstr "储物箱、储罐、口粮箱、冰箱和木材储存的倍率。最终容量 = 基础容量 × 此倍率。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.PIPEMULTIPLIER.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.PIPEMULTIPLIER.NAME"
+msgid "Pipe Multiplier"
+msgstr "管道倍率"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.PIPEMULTIPLIER.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.PIPEMULTIPLIER.TOOLTIP"
+msgid "Multiplies capacity per pipe segment and maximum valve flow for liquids and gases."
+msgstr "液体和气体管道的单格容量及阀门最大流量倍率。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CONVEYORMULTIPLIER.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CONVEYORMULTIPLIER.NAME"
+msgid "Conveyor Multiplier"
+msgstr "运输轨道倍率"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CONVEYORMULTIPLIER.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CONVEYORMULTIPLIER.TOOLTIP"
+msgid "Multiplies conveyor loader, receptacle, and rail packet capacities."
+msgstr "运输装载器、卸载器和轨道货物容量的倍率。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.ROCKETFUELMULTIPLIER.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.ROCKETFUELMULTIPLIER.NAME"
+msgid "Rocket Fuel Multiplier"
+msgstr "火箭燃料倍率"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.ROCKETFUELMULTIPLIER.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.ROCKETFUELMULTIPLIER.TOOLTIP"
+msgid "Multiplies fuel and oxidizer storage capacities supported by the original mod."
+msgstr "原模组支持的火箭燃料与氧化剂储存容量倍率。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.ROCKETCARGOMULTIPLIER.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.ROCKETCARGOMULTIPLIER.NAME"
+msgid "Rocket Cargo Multiplier"
+msgstr "火箭货舱倍率"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.ROCKETCARGOMULTIPLIER.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.ROCKETCARGOMULTIPLIER.TOOLTIP"
+msgid "Multiplies rocket cargo bay capacities."
+msgstr "火箭货舱容量倍率。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.OTHERMULTIPLIER.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.OTHERMULTIPLIER.NAME"
+msgid "Other Storage Multiplier"
+msgstr "其他储存倍率"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.OTHERMULTIPLIER.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.OTHERMULTIPLIER.TOOLTIP"
+msgid "Multiplies internal storage capacities classified as other by the original mod."
+msgstr "原模组归入其他类别的建筑内部储存容量倍率。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CAPACITY.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CAPACITY.NAME"
+msgid "Base Capacities"
+msgstr "基础容量"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CAPACITY.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CAPACITY.TOOLTIP"
+msgid "The values below are multiplied by their respective category multipliers."
+msgstr "下面的数值会继续乘以对应类别的倍率。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LOCKER.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LOCKER.NAME"
+msgid "Storage Bin (kg)"
+msgstr "储物箱（kg）"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LOCKER.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LOCKER.TOOLTIP"
+msgid "Base capacity for storage bins, smart storage bins, and automatic dispensers. Multiplied by the storage multiplier."
+msgstr "储物箱、智能储物箱和自动卸物箱的基础容量，乘以储存倍率。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.WOODSTORAGE.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.WOODSTORAGE.NAME"
+msgid "Wood Storage (kg)"
+msgstr "木材储存（kg）"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.WOODSTORAGE.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.WOODSTORAGE.TOOLTIP"
+msgid "Base capacity, multiplied by the storage multiplier."
+msgstr "基础容量，乘以储存倍率。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDRESERVOIR.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDRESERVOIR.NAME"
+msgid "Liquid Reservoir (kg)"
+msgstr "储液罐（kg）"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDRESERVOIR.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDRESERVOIR.TOOLTIP"
+msgid "Base capacity, multiplied by the storage multiplier. The original mod's 99,999 kg final capacity limit still applies."
+msgstr "基础容量，乘以储存倍率。最终容量仍受原模组 99999 kg 上限限制。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASRESERVOIR.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASRESERVOIR.NAME"
+msgid "Gas Reservoir (kg)"
+msgstr "储气罐（kg）"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASRESERVOIR.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASRESERVOIR.TOOLTIP"
+msgid "Base capacity, multiplied by the storage multiplier. The original mod's 99,999 kg final capacity limit still applies."
+msgstr "基础容量，乘以储存倍率。最终容量仍受原模组 99999 kg 上限限制。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.RATIONBOX.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.RATIONBOX.NAME"
+msgid "Ration Box (kg)"
+msgstr "口粮箱（kg）"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.RATIONBOX.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.RATIONBOX.TOOLTIP"
+msgid "Base capacity, multiplied by the storage multiplier."
+msgstr "基础容量，乘以储存倍率。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.REFRIGERATOR.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.REFRIGERATOR.NAME"
+msgid "Refrigerator (kg)"
+msgstr "冰箱（kg）"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.REFRIGERATOR.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.REFRIGERATOR.TOOLTIP"
+msgid "Base capacity, multiplied by the storage multiplier."
+msgstr "基础容量，乘以储存倍率。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CARGOBAY.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CARGOBAY.NAME"
+msgid "Cargo Bay (kg)"
+msgstr "货舱（kg）"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CARGOBAY.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CARGOBAY.TOOLTIP"
+msgid "Base capacity, multiplied by the rocket cargo multiplier. Liquid and gas cargo bays retain the original mod's 99,999 kg limit."
+msgstr "基础容量，乘以火箭货舱倍率。液体和气体货舱仍受原模组 99999 kg 上限限制。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CONVEYORINBOX.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CONVEYORINBOX.NAME"
+msgid "Conveyor Loader (kg)"
+msgstr "运输装载器（kg）"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CONVEYORINBOX.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CONVEYORINBOX.TOOLTIP"
+msgid "Base capacity, multiplied by the conveyor multiplier."
+msgstr "基础容量，乘以运输轨道倍率。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CONVEYOROUTBOX.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CONVEYOROUTBOX.NAME"
+msgid "Conveyor Receptacle (kg)"
+msgstr "运输卸载器（kg）"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CONVEYOROUTBOX.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CONVEYOROUTBOX.TOOLTIP"
+msgid "Base capacity, multiplied by the conveyor multiplier."
+msgstr "基础容量，乘以运输轨道倍率。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CONVEYORRAILS.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CONVEYORRAILS.NAME"
+msgid "Conveyor Rail Packet (kg)"
+msgstr "运输轨道货物（kg）"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CONVEYORRAILS.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.CONVEYORRAILS.TOOLTIP"
+msgid "Base capacity per packet, multiplied by the conveyor multiplier."
+msgstr "单份货物基础容量，乘以运输轨道倍率。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDPIPE.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDPIPE.NAME"
+msgid "Liquid Pipe (kg)"
+msgstr "液体管道（kg）"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDPIPE.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.LIQUIDPIPE.TOOLTIP"
+msgid "Base capacity per segment, multiplied by the pipe multiplier. Also controls maximum liquid valve flow."
+msgstr "单格基础容量，乘以管道倍率；也用于液体阀门最大流量。"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASPIPE.NAME
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASPIPE.NAME"
+msgid "Gas Pipe (kg)"
+msgstr "气体管道（kg）"
+
+#. STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASPIPE.TOOLTIP
+msgctxt "STRINGS.BIGGERCAPACITYFIXED.OPTIONS.GASPIPE.TOOLTIP"
+msgid "Base capacity per segment, multiplied by the pipe multiplier. Also controls maximum gas valve flow."
+msgstr "单格基础容量，乘以管道倍率；也用于气体阀门最大流量。"
